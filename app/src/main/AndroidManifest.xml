@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a100535658.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+          Google Maps Android API v2, but you must specify either coarse or fine
+          location permissions for the 'MyLocation' functionality.
+     -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vnue_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="V-nue" />
+        <activity
+            android:name=".Profile"
+            android:label="Hey There!" />
+        <activity
+            android:name=".Signup"
+            android:label="Sign Up" />
+        <activity
+            android:name=".FirstProfile"
+            android:label="Hey There!" />
+        <activity
+            android:name=".CreateTeam"
+            android:label="Create Team" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDzTX5CBgc63FZuzge_RRq7uZdHHxRmqQs" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="Be Part of a Team" />
+        <activity
+            android:name=".TeamMembers"
+            android:label="Teams Members" />
+        <activity
+            android:name=".MainMessage"
+            android:label="Message" />
+        <activity
+            android:name=".JoinTeam"
+            android:label="Join Them?" />
+        <activity android:name=".LogoPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BookVenue"
+            android:label="Book Venue" />
+        <activity
+            android:name=".FriendlyGame"
+            android:label="Friendly Game" />
+        <activity
+            android:name=".BookingSummary"
+            android:label="Summary" />
+    </application>
+
+</manifest>

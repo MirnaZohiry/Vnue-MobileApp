@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="choices">
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+
+    </string-array>
+</resources>
